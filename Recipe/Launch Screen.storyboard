@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="0.0" y="832" width="393" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="jV1-Tp-yXf">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="yLg-5n-ndJ">
+                                <rect key="frame" x="76.666666666666686" y="306" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Vod-GR-7xu"/>
+                                    <constraint firstAttribute="height" constant="240" id="mxN-H1-4r4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AVOCADOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDL-1g-wYe">
+                                <rect key="frame" x="85.666666666666686" y="558" width="222" height="52"/>
+                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="42"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
+                            <constraint firstItem="yLg-5n-ndJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CyH-Yc-kh9"/>
+                            <constraint firstAttribute="trailing" secondItem="jV1-Tp-yXf" secondAttribute="trailing" id="IEd-4k-Sac"/>
+                            <constraint firstAttribute="bottom" secondItem="jV1-Tp-yXf" secondAttribute="bottom" id="ROS-i7-nmM"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstItem="RDL-1g-wYe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eGZ-q8-ekV"/>
+                            <constraint firstItem="yLg-5n-ndJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mfq-d4-S55"/>
+                            <constraint firstItem="jV1-Tp-yXf" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="oLn-Da-kgS"/>
+                            <constraint firstItem="RDL-1g-wYe" firstAttribute="top" secondItem="yLg-5n-ndJ" secondAttribute="bottom" constant="12" id="rKx-bu-iUQ"/>
+                            <constraint firstItem="jV1-Tp-yXf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="w3L-n3-Lb7"/>
+                            <constraint firstItem="yLg-5n-ndJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xGS-TI-gWx"/>
+                            <constraint firstItem="yLg-5n-ndJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zIS-FL-D7b"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avocado" width="883" height="862"/>
+    </resources>
+</document>
